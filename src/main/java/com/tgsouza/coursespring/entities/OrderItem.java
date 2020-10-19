@@ -6,7 +6,6 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.tgsouza.coursespring.entities.pk.OrdemItemPK;
 
@@ -91,6 +90,6 @@ public class OrderItem implements Serializable {
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		return true;
+		return true; 
 	}
 }
